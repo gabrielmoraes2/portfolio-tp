@@ -8,14 +8,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MaterialModule } from './shared/material/material.module';
 import { SobremimComponent } from './sobremim/sobremim.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProjetosComponent } from './projetos/projetos.component';
 
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     HomeComponent,
       SobremimComponent,
-      NavbarComponent
+      NavbarComponent,
+      ProjetosComponent
    ],
   imports: [
     BrowserModule,

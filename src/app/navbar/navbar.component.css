@@ -2,6 +2,10 @@
     flex: 1 1 auto;
   }
 .navbar{
-  background-image: linear-gradient(to top, #f9f9f9, #F27C38);
-   color: black;
+  background-image: linear-gradient(to top, #f27c3800, #0095ff);
+ box-shadow: 0.8px 0.8px 0.8px 1px black;
+
+}
+mat-toolbar{
+  background:none;
 }
