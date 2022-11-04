@@ -1,8 +1,13 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable()
 export class ProjetosService {
 
-constructor() { }
+constructor(private httpClient: HttpClient) { }
+
+// getApi(){
+// return this.httpClient.get()
+// }
 
 }

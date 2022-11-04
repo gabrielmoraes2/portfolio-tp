@@ -1,19 +1,8 @@
-.sobreMim {
-  max-width: 287px;
-  margin: 4px;
-  background-color: aliceblue;
-}
-
-.subtitle{
-    text-align: center;
-    font-size: 14px;
-    width: 287.06px;
-    color: black;
-}
-
-.textinho{
-    text-align: center;
-    font-size: 14px;
-    width: 300px;
-    color: black;
+.text {
+  text-align: left;
+  margin-left: 600px;
+  margin-right: 70px;
+  position: relative;
+  font-family: Monospace;
+  font-size: 25px;
 }
