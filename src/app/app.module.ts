@@ -9,15 +9,17 @@ import { MaterialModule } from './shared/material/material.module';
 import { SobremimComponent } from './sobremim/sobremim.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjetosComponent } from './projetos/projetos.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
-  declarations: [			
+  declarations: [				
     AppComponent,
     HomeComponent,
       SobremimComponent,
       NavbarComponent,
-      ProjetosComponent
+      ProjetosComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,

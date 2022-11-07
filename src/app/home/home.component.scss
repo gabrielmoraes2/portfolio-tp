@@ -104,28 +104,6 @@ margin-top: 55px;
     align-items: center;
 }
 
-
-footer {
-    height: 344px;
-    background-image: linear-gradient(to top, #0095ff, #f27c3800);
-}
-
-.footer-dados{
-    height: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding-top: 100px;
-}
-.sobre-nos h6 {
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 21.09px;
-}
-
-
-
-.sobre-nos{
-    margin-top: 55px;
+.focus h6 {
+	animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
