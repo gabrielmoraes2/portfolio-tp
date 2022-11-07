@@ -4,6 +4,9 @@
 .navbar{
   background-image: linear-gradient(to top, #f27c3800, #0095ff);
  box-shadow: 0.8px 0.8px 0.8px 1px black;
+ font-family: Monospace;
+ color: #000000;
+
 
 }
 mat-toolbar{
