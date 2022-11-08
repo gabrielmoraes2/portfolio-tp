@@ -7,31 +7,44 @@
     </div>
   </section>
 </div>
-<main id="home">
-  <section class="sobreMy">
-    <div class="contato">
-      <div class="linha"></div>
-      <h6>SOBRE MIM</h6>
-      <div class="linha"></div>
-    </div>
-    <p>
-      <app-sobremim></app-sobremim>
-    </p>
-  </section>
-  <section class="section-2">
-    <div class="contato">
-      <div class="linha"></div>
-      <h6>PROJETOS</h6>
-      <div class="linha"></div>
-    </div>
-    <!-- <app-projetos>
-    </app-projetos> -->
-  </section>
-  <section class="section-3">
-    <div class="contato">
-      <div class="linha"></div>
-      <h6>TECNOLOGIAS</h6>
-      <div class="linha"></div>
-    </div>
-  </section>
-</main>
+<div>
+  <main id="home">
+    <section class="sobreMy">
+      <div class="contato">
+        <div class="linha"></div>
+        <h6>SOBRE MIM</h6>
+        <div class="linha"></div>
+      </div>
+      <p>
+        <app-sobremim></app-sobremim>
+      </p>
+    </section>
+    <section class="section-2">
+      <div class="contato">
+        <div class="linha"></div>
+        <h6>PROJETOS</h6>
+        <div class="linha"></div>
+      </div>
+      <div>
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <button (click)="todosDaApi()"> Obter API</button>
+      <button (click)="soPorId()"> Obter API</button>
+    </section>
+    <section class="section-3">
+      <div class="contato">
+        <div class="linha"></div>
+        <h6>TECNOLOGIAS</h6>
+        <div class="linha"></div>
+      </div>
+    </section>
+  </main>
+</div>
