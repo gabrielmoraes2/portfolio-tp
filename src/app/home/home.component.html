@@ -25,19 +25,17 @@
         <h6>PROJETOS</h6>
         <div class="linha"></div>
       </div>
-      <div>
-        <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+      <div class="cardPai" >
+        <div *ngFor="let proj of project" class="card" style="width: 18rem;">
+          <img src="../../assets/img/em-breve-3-8041.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"></h5>
+            <h5 class="card-title">{{proj.nome}}</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-      <button (click)="todosDaApi()"> Obter API</button>
-      <button (click)="soPorId()"> Obter API</button>
     </section>
     <section class="section-3">
       <div class="contato">
