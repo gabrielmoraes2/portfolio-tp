@@ -8,14 +8,20 @@ import { IProjeto } from '../interface/iProjetos';
 })
 export class ProjetoService {
 
-constructor(private httpClient: HttpClient) { }
+  project = require("db.json")
 
-obterTodos(){
-return this.httpClient.get<IProjeto[]>(`${API_PATH}Projetos`).toPromise();
-}
+  constructor(private httpClient: HttpClient) { }
 
-obterPorId(id: number){
-return this.httpClient.get<IProjeto>(`${API_PATH}Projetos/${id}`).toPromise()
-}
+  obterTodos() {
+    return new Promise((resolve, reject) => {
+
+      if (!this.project) {
+        reject("Não teve")
+      } else {
+        resolve(this.project)
+      }
+    })
+  }
+
 
 }

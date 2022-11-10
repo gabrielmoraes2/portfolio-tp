@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IProjeto } from '../interface/iProjetos';
 import { ProjetoService } from '../servicos/projeto.service';
 
 
@@ -11,23 +12,14 @@ import { ProjetoService } from '../servicos/projeto.service';
 })
 export class HomeComponent implements OnInit {
 
- project = require("db.json") ;
+  projects = require("db.json");
+
+  project!: IProjeto[]
 
 
   constructor(private projetoService: ProjetoService) { }
 
   ngOnInit(): void {
+    this.project = this.projects.projetos
   }
-
-todosDaApi(){
-this.projetoService.obterTodos()
-.then(projetos => console.log(projetos))
-.catch(error => console.log(error));
-}
-
-soPorId(){
-this.projetoService.obterPorId(2)
-.then(projetos => console.log(projetos))
-.catch(error => console.log(error))
-}
 }
