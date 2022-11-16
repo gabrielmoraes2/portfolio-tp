@@ -25,14 +25,13 @@
         <h6>PROJETOS</h6>
         <div class="linha"></div>
       </div>
-      <div class="cardPai" >
+      <div class="cardPai">
         <div *ngFor="let proj of project" class="card" style="width: 18rem;">
           <img src="../../assets/img/em-breve-3-8041.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">{{proj.nome}}</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Novas Atualizações viram em breve.</p>
+            <a href="#" class="btn btn-primary">{{proj.link}}</a>
           </div>
         </div>
       </div>
@@ -42,6 +41,25 @@
         <div class="linha"></div>
         <h6>TECNOLOGIAS</h6>
         <div class="linha"></div>
+      </div>
+      <div class="text">
+        <p>
+          Aqui estão todas as tecnologias que aprendi durante minha trajetória no Bootcamp
+        </p>
+        <p>
+          Estou em busca constante de novos conhecimentos e novas práticas, em pouco tempo irei adicionar mais
+          tecnologias aqui
+        </p>
+      </div>
+      <div class="cardPai">
+        <div *ngFor="let img of tecno" class="card" style="width: 10rem;">
+          <img src="{{img.link}}" class="card-img" alt="...">
+        </div>
+      </div>
+      <div class="cardPai">
+        <div *ngFor="let picture of tec" class="card" style="width: 10rem;">
+          <img src="{{picture.link}}" class="card-img" alt="...">
+        </div>
       </div>
     </section>
   </main>

@@ -1,7 +1,7 @@
 .text {
-  text-align: left;
-  margin-left: 600px;
-  margin-right: 70px;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
   position: relative;
   font-family: Monospace;
   font-size: 25px;

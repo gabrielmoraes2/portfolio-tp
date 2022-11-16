@@ -112,18 +112,45 @@ h3 {
   align-items: center;
 }
 
-.cardPai{
-display: flex;
-
+.card-body,
+.card-title {
+  font-family: Monospace;
+  font-size: 20px;
+  text-align: center;
 }
 
-.card{
+.cardPai {
+  display: flex;
+}
+
+.card {
   margin-right: 20px;
 }
 
-.card-img-top{
-width: 200px;
-height: 150px;
+.card-img-top {
+  width: 210px;
+  height: 150px;
+  margin-left: 35px;
 
 }
 
+.tecnos {
+  width: 15%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.card-img {
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+
+}
+
+.text {
+
+  text-align: center;
+  position: relative;
+  font-family: Monospace;
+  font-size: 20px;
+}
