@@ -8,14 +8,15 @@
   flex-direction: column;
   align-items: center;
   height: 20%;
+  margin-bottom: 37px;
 }
 
 .tp {
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 40%;
   margin-top: 300px;
   align-items: center;
-  padding: 0 350px;
+  padding: 0 380px;
 }
 
 .section-2 {
@@ -56,10 +57,11 @@
 .intro {
   display: flex;
   align-items: center;
-  height: 20px;
+  height: 20%;
   margin-bottom: 37px;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 75px;
+  flex-direction: column;
 }
 
 .intro h1,
@@ -128,9 +130,10 @@ h3 {
 }
 
 .card-img-top {
-  width: 210px;
+width: 210px;
   height: 150px;
   margin-left: 35px;
+
 
 }
 
@@ -141,9 +144,10 @@ h3 {
 }
 
 .card-img {
-  width: 130px;
+
   height: 130px;
   margin-top: 20px;
+  max-width: 100%;
 
 }
 
