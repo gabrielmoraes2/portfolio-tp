@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { API_PATH } from 'src/environments/environment';
-import { IProjeto } from '../interface/iProjetos';
 
 @Injectable({
   providedIn: 'root'
